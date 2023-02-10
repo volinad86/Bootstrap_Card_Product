@@ -1,0 +1,46 @@
+.image {
+    margin-bottom: 10px;
+}
+.image img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+}
+.info h3{
+    font-size: 21px;
+    margin-bottom: 0;
+}
+.rating{
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+.rating li{
+    display: inline-block;
+    color: yellowgreen;
+}
+.info-price{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.add-to-cart{
+    border:none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #ffa92c;
+    color: aliceblue;
+    border-radius: 7px;
+}
+.price{
+    font-weight: 700;
+    font-size: 18px;
+}
+.me{
+    padding: 15px;
+}
